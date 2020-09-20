@@ -1,0 +1,44 @@
+.CardBuilder{
+    padding: 40px;
+	.divider{
+        color: $textLight;
+        border-bottom: 1px solid $textLight;
+        text-align: left;
+        margin: 20px 0;
+    }
+    .CardBuilderInput{
+        text-align: left;
+        display: inline-block;
+        width: 50%;
+    }
+    .CardBuilderInput-left{
+        padding-right: 30px;
+    }
+    .CardBuilderInput-right{
+        padding-left: 30px;
+    }
+    label{
+        width: 100%;
+        display: inline-block;
+        color: $textMain;
+    }
+    input{
+        width: 100%;
+        display: block;
+    }
+    .CardBuilder-title{
+        text-align: left;
+        color: $textMain;
+    }
+    .CardBuilder-create{
+        background-color: $buttonLight;
+    }
+    .CardBuilder-buttons{
+        display: flex;
+        margin-top: 20px;
+        .CardBuilder-create{
+            width: 50%;
+            margin-left: 30px;
+        }
+    }
+}
